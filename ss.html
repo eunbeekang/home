@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>이가네 집들이 초대장</title>
+
+</head>
+
+<body>
+   <style>
+       *{margin:0;padding:0; -webkit-text-size-adjust: none;  -moz-text-size-adjust: none;  -ms-text-size-adjust: none;}
+        html, body {width:100%; height:100%; margin:0; padding:0;  -webkit-text-size-adjust: none;  -moz-text-size-adjust: none;  -ms-text-size-adjust: none; }
+
+        body{font-size:16px;word-break:break-all;-ms-word-break:break-all;line-height:1.75;background-color: #fbfafa;}
+        a, address, blockquote, br, fieldset, legend, label, form, input, select, textarea, button, table, th, td caption, cite, code, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, div, iframe, ul, ol, li, hr, img{margin:0; padding:0;}
+        h1, h2, h3, h4, h5, h6 {font-size:16px; text-align:left;}
+        ul, ol, li {list-style:none;}
+        abbr,acronym {border:0;}
+        img{vertical-align:middle; border:none;}
+        img, fieldset, iframe{border:none;}
+        em, address{font-style:normal;}
+        textarea{overflow:auto;}
+        table{border-collapse:separate !important; border-spacing:0;}
+        input, select, textarea{font-size:100%; vertical-align:middle;}
+        select{font-size: inherit; font-family: inherit; color: inherit;text-transform: none;vertical-align: middle; box-sizing:border-box; appearance: none; -webkit-appearance: none; -moz-appearance: none; -o-appearance: none;}
+
+       @font-face 
+       {
+           font-family: 'KBO-Dia-Gothic_bold';
+           src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+           font-weight: 700;
+           font-style: normal;
+       }
+       @font-face 
+       {
+           font-family: 'PartialSansKR-Regular';
+           src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+           font-weight: normal;
+           font-style: normal;
+       }
+       @font-face 
+       {
+           font-family: 'MYYeongnamnu';
+           src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYYeongnamnu.woff2') format('woff2');
+           font-weight: normal;
+           font-style: normal;
+       }
+       @font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+       @font-face {
+    font-family: 'IM_Hyemin-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+       .wrap{margin: 0 auto;background-color: #ffffff;position: relative;width: 640px;/* height: 100%; */padding: 35px;box-sizing: border-box;}
+       .wrap:before{position: absolute;content: '';display: block;background: url(./images/0102_01.png)no-repeat right top;width: 400px;height: 100%;left: 0;top:0;background-size: 100% auto;}
+       .wrap:after{position: absolute;content: '';display: block;background: url(./images/0101_02.png)no-repeat left bottom;width: 360px;height: 100%;right: 0;bottom: 0;background-size: 100% auto;}
+       .inner{border: 1px solid #ddd;box-sizing: border-box;height: 100%;padding: 25px;box-sizing: border-box;}
+       .top{z-index: 1;position: relative;text-align: center;margin-top: 50px;}
+       .top01{font-family: 'PartialSansKR-Regular';font-size: 52px;line-height: 1;color: #b1a3ff;}
+       .top02{font-family: 'KBO-Dia-Gothic_bold';font-size: 74px;line-height: 1;margin-top: 0px;}
+       .top03{font-family: 'MYYeongnamnu';font-size: 40px;line-height: 1;margin-top: 5px;color: #7d7d7d;}
+       .midd{position: relative;z-index: 1;}
+       .info{margin-top: 50px;}
+       .info > li{display: flex;margin-top: 15px;gap: 12px;}
+       .info > li > span{font-family: 'IM_Hyemin-Bold';background-color: rgba(177,163,255,0.2);border-radius: 25px;padding: 8px 15px;line-height: 1;font-size: 24px;box-sizing: border-box;color: #000;text-align: center;width: 75px;flex: 0 75px;align-self: baseline;}
+       .info > li > em{font-family: 'IM_Hyemin-Bold';font-size: 24px;flex: 1;word-break: keep-all;letter-spacing: -0.75px;}
+       .noti{background-color: #fffed0;padding: 12px 15px;border-radius: 0;box-sizing: border-box;font-family: 'IM_Hyemin-Bold';display: flex;font-size: 22px;flex-direction: column;margin-top: 50px;}
+       .noti > span{color: #000;font-weight: 700;line-height: 1;display: none;}
+       .noti > em{line-height: 1.35;word-break: keep-all;text-align: center;}
+       .map_wrap{}
+       .map_wrap .map{width: 100%;height: 350px;}
+    </style>
+    <div class="wrap">
+        <div class="inner">
+            <div class="top">
+                <p class="top01">이가네</p>
+                <p class="top02">집들이</p>
+                <p class="top03">초대합니다!</p>
+            </div>
+            <div class="midd">
+                <ul class="info">
+                    <li><span>날짜</span><em>2024.07.27. (토) 오후 5시 30분</em></li>
+                    <li><span>장소</span><em>울산 뉴시티에일린의뜰 2차, 203동 1102호</em></li>
+                </ul>
+                <p class="noti"><span>참고사항</span><em>귀여운 고양이 새우와 연어가 <br>여러분을 기다리고 있습니다!</em></p>
+                <div class="map_wrap">
+
+                    <div id="daumRoughmapContainer1714462782998" class="root_daum_roughmap root_daum_roughmap_landing map"></div>
+
+                    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                    <script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                            "timestamp": "1714462782998",
+                            "key": "2j7fs",
+                        }).render();
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
