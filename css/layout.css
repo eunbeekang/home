@@ -53,74 +53,11 @@
 
 @media (max-width: 680px){
     .wrap{width:100%;}
-    .wrap:before{}
-    .wrap:after{}
-    .inner{}
-    .top{}
-    .top01{}
-    .top02{}
-    .top03{}
-    .midd{}
-    .info{}
-    .info > li{}
-    .info > li > span{}
-    .info > li > em{}
-
-    .midd_tit{}
-
-    .path{}
-    .path > li{}
-    .path > li:before{}
-    .path > li:nth-of-type(1):before{}
-    .path > li:nth-of-type(2):before{}
-    .path > li .path_tit{}
-    .path > li .path_txt{}
-    .path > li .path_gro{}
-    .path > li .path_noti{}
-    .path > li .path_noti:before{}
-
-    .noti_wrap{}
-    .noti{}
-    .noti > em{}
-
-    .noti_wrap:before{}
-    .noti_wrap:after{}
-    .noti:before{}
-    .noti:after{}
-
-    .map_wrap .map{}
+    
 }
 @media (max-width: 640px){
     .wrap{padding: 25px;}
-    .wrap:before{}
-    .wrap:after{}
-    .inner{}
-    .top{}
-    .top01{}
-    .top02{}
-    .top03{}
-    .midd{}
-    .info{}
-    .info > li{}
-    .info > li > span{}
-    .info > li > em{}
-
-    .midd_tit{}
-
-    .path{}
-    .path > li{}
-    .path > li:before{}
-    .path > li:nth-of-type(1):before{}
-    .path > li:nth-of-type(2):before{}
-    .path > li .path_tit{}
-    .path > li .path_txt{}
-    .path > li .path_gro{}
-    .path > li .path_noti{}
-    .path > li .path_noti:before{}
-
-    .noti_wrap{}
     .noti{letter-spacing: -0.25px;font-size: 20px;}
-    .noti > em{}
 
     .noti_wrap:before{width: 135px;left: -25px;bottom: -25px;}
     .noti_wrap:after{width: 70px;top: -10px;}
@@ -130,15 +67,10 @@
     .map_wrap .map{height: 280px;}
 }
 @media (max-width: 600px){
-    .wrap{}
-    .wrap:before{}
-    .wrap:after{}
-    .inner{}
-    .top{}
+
     .top01{font-size: 45px;}
     .top02{font-size: 65px;}
     .top03{font-size: 35px;}
-    .midd{}
     .info{margin-top: 35px;}
     .info > li{gap: 10px;margin-top: 10px;}
     .info > li > span{font-size: 22px;}
@@ -146,20 +78,10 @@
 
     .midd_tit{font-size: 24px;line-height: 1;}
 
-    .path{}
-    .path > li{}
-    .path > li:before{}
-    .path > li:nth-of-type(1):before{}
-    .path > li:nth-of-type(2):before{}
+
     .path > li .path_tit{font-size: 20px;}
     .path > li .path_txt{font-size: 18px;}
-    .path > li .path_gro{}
-    .path > li .path_noti{}
-    .path > li .path_noti:before{}
 
-    .noti_wrap{}
-    .noti{}
-    .noti > em{}
 
     .noti_wrap:before{width: 120px;bottom: -20px;}
     .noti_wrap:after{width: 65px;}
@@ -169,21 +91,10 @@
     .map_wrap .map{height: 250px;}
 }
 @media (max-width: 560px){
-    .wrap{}
     .wrap:before{background-size: 100% auto;width: 300px;}
     .wrap:after{background-size: 100% auto;width: 300px;}
-    .inner{}
-    .top{}
-    .top01{}
-    .top02{}
-    .top03{}
-    .midd{}
-    .info{}
-    .info > li{}
     .info > li > span{font-size: 20px;padding: 6px 12px;width: 65px;flex: 0 65px;}
     .info > li > em{font-size: 20px;line-height: 1.25;}
-
-    .midd_tit{}
 
     .path{letter-spacing: -0.75px;}
     .path > li{padding: 12px 10px;padding-left: 70px;}
@@ -192,60 +103,12 @@
     .path > li:nth-of-type(2):before{background-size: auto 15px;}
     .path > li .path_tit{font-size: 18px;margin-top: 15px;}
     .path > li .path_txt{margin-top: 8px;font-size: 16px;}
-    .path > li .path_gro{}
     .path > li .path_noti{font-size: 15px;}
-    .path > li .path_noti:before{}
-
-    .noti_wrap{}
-    .noti{}
-    .noti > em{}
-
-    .noti_wrap:before{}
-    .noti_wrap:after{}
-    .noti:before{}
-    .noti:after{}
+    .path_noti > span{display: block;}
 
     .map_wrap .map{height: 235px;}
 }
-@media (max-width: 510px){
-    .wrap{}
-    .wrap:before{}
-    .wrap:after{}
-    .inner{}
-    .top{}
-    .top01{}
-    .top02{}
-    .top03{}
-    .midd{}
-    .info{}
-    .info > li{}
-    .info > li > span{}
-    .info > li > em{}
 
-    .midd_tit{}
-
-    .path{}
-    .path > li{}
-    .path > li:before{}
-    .path > li:nth-of-type(1):before{}
-    .path > li:nth-of-type(2):before{}
-    .path > li .path_tit{}
-    .path > li .path_txt{}
-    .path > li .path_gro{}
-    .path > li .path_noti{}
-    .path > li .path_noti:before{}
-
-    .noti_wrap{}
-    .noti{}
-    .noti > em{}
-
-    .noti_wrap:before{}
-    .noti_wrap:after{}
-    .noti:before{}
-    .noti:after{}
-
-    .map_wrap .map{}
-}
 @media (max-width: 480px){
     .wrap{padding: 20px;}
     .wrap:before{width: 265px;}
@@ -255,27 +118,18 @@
     .top01{font-size: 36px;}
     .top02{font-size: 52px;}
     .top03{font-size: 30px;margin-top: 0;}
-    .midd{}
     .info{margin-top: 25px;}
-    .info > li{}
     .info > li > span{font-size: 18px;width: 60px;flex: 0 60px;}
     .info > li > em{font-size: 18px;}
 
     .midd_tit{font-size: 22px;margin-top: 20px;margin-bottom: 8px;}
 
-    .path{}
     .path > li{padding: 10px;padding-left: 60px;}    .path > li:before{width: 35px;height: 35px;left: 12px;}
-    .path > li:nth-of-type(1):before{}
-    .path > li:nth-of-type(2):before{}
     .path > li .path_tit{font-size: 16px;margin-top: 4px;}
     .path > li .path_txt{font-size: 15px;margin-top: 5px;}
-    .path > li .path_gro{}
     .path > li .path_noti{font-size: 14px;padding: 8px;padding-left: 28px;}
     .path > li .path_noti:before{width: 14px;height: 14px;font-size: 8px;line-height: 15px;left: 8px;top: 10px;}
-
-    .noti_wrap{}
     .noti{font-size: 18px;letter-spacing: -0.75px;}
-    .noti > em{}
 
     .noti_wrap:before{width: 100px;bottom: -20px;left: -20px;}
     .noti_wrap:after{width: 55px;top: -5px;}
@@ -289,32 +143,21 @@
     .wrap:before{width: 235px;}
     .wrap:after{width: 200px;}
     .inner{padding: 15px;}
-    .top{}
     .top01{font-size: 34px;}
     .top02{font-size: 48px;}
     .top03{font-size: 28px;}
-    .midd{}
-    .info{}
     .info > li{gap: 8px;}
     .info > li > span{font-size: 16px;padding: 5px;width: 50px;flex: 0 50px;}
     .info > li > em{font-size: 16px;}
 
     .midd_tit{font-size: 20px;}
 
-    .path{}
-    .path > li{}
-    .path > li:before{}
-    .path > li:nth-of-type(1):before{}
-    .path > li:nth-of-type(2):before{}
     .path > li .path_tit{font-size: 15px;}
     .path > li .path_txt{font-size: 14px;}
-    .path > li .path_gro{}
-    .path > li .path_noti{font-size: 13.5px;}
-    .path > li .path_noti:before{}
 
-    .noti_wrap{}
+    .path > li .path_noti{font-size: 13.5px;}
+
     .noti{font-size: 16px;}
-    .noti > em{}
 
     .noti_wrap:before{/* width: 90px; */bottom: -15px;left: -15px;}
     .noti_wrap:after{/* width: 50px; */}
