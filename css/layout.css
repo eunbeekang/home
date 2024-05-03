@@ -44,8 +44,8 @@
 
 .noti_wrap:before{position:absolute;content:'';display:block;width: 157px;height: 83px;background: url(../images/cat01.png)no-repeat left bottom;background-size: 100% auto;left: -20px;bottom:-20px;z-index: 1;}
 .noti_wrap:after{position:absolute;content:'';display:block;width: 79px;height: 89px;background: url(../images/cat03.png)no-repeat left top;background-size: 100% auto;left: 0px;top:-20px;}
-.noti:before{position:absolute;content:'';display:block;width: 140px;height: 92px;background: url(../images/cat05.png)no-repeat right bottom;background-size: 100% auto;right:.0;bottom: -55px;z-index: 1;}
-.noti:after{position:absolute;content:'';display:block;width: 118px;height: 87px;background: url(../images/cat02.png)no-repeat right top;background-size: 100% auto;right:0;top:-30px;}
+.noti:before{position:absolute;content:'';display:block;width: 140px;height: 92px;background: url(../images/cat05.png)no-repeat right bottom;background-size: 100% auto;right:.0;bottom: -55px;z-index: 2;}
+.noti:after{position:absolute;content:'';display:block;width: 118px;height: 87px;background: url(../images/cat02.png)no-repeat right top;background-size: 100% auto;right:0;top:-30px;z-index: 1;}
 
 .map_wrap{}
 .map_wrap .map{width: 100%;height: 300px;}
