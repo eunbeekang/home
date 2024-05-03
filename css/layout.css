@@ -316,10 +316,10 @@
     .noti{font-size: 16px;}
     .noti > em{}
 
-    .noti_wrap:before{width: 90px;bottom: -15px;left: -15px;}
-    .noti_wrap:after{width: 50px;}
-    .noti:before{width: 70px;bottom: -11px;}
-    .noti:after{width: 57px;top: 0px;}
+    .noti_wrap:before{/* width: 90px; */bottom: -15px;left: -15px;}
+    .noti_wrap:after{/* width: 50px; */}
+    .noti:before{width: 85px;}
+    .noti:after{width: 75px;top: -5px;}
 
     .map_wrap .map{}
 }
