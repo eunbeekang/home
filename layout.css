@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.wrap{margin: 0 auto;background-color: #ffffff;position: relative;width: 640px;/* height: 100%; */padding: 35px;box-sizing: border-box;}
+.wrap:before{position: absolute;content: '';display: block;background: url(../images/0102_01.png)no-repeat right top;width: 400px;height: 100%;left: 0;top:0;background-size: 100% auto;}
+.wrap:after{position: absolute;content: '';display: block;background: url(../images/0101_02.png)no-repeat left bottom;width: 360px;height: 100%;right: 0;bottom: 0;background-size: 100% auto;}
+.inner{border: 1px solid #ddd;box-sizing: border-box;height: 100%;padding: 25px;box-sizing: border-box;}
+.top{z-index: 1;position: relative;text-align: center;margin-top: 50px;}
+.top01{font-family: 'PartialSansKR-Regular';font-size: 52px;line-height: 1;color: #b1a3ff;}
+.top02{font-family: 'KBO-Dia-Gothic_bold';font-size: 74px;line-height: 1;margin-top: 0px;}
+.top03{font-family: 'MYYeongnamnu';font-size: 40px;line-height: 1;margin-top: 5px;color: #7d7d7d;}
+.midd{position: relative;z-index: 1;}
+.info{margin-top: 50px;}
+.info > li{display: flex;margin-top: 15px;gap: 12px;font-family: 'GongGothic';align-items: baseline;}
+.info > li > span{background-color: rgba(177,163,255,0.2);border-radius: 25px;padding: 8px 15px;line-height: 1;font-size: 24px;box-sizing: border-box;color: #000;text-align: center;width: 75px;flex: 0 75px;align-self: baseline;font-weight: 500;}
+.info > li > em{font-size: 24px;flex: 1;word-break: keep-all;letter-spacing: -0.75px;font-weight: 300;line-height: 1;}
+
+.midd_tit{font-family: 'GongGothic';font-size: 26px;font-weight: 500;color: #3aab87;margin-top: 25px;line-height: 1.35;margin-bottom: 10px;}
+.cata03_c01{background-color:#9b82dc;}/* 회계기준위원회 */
+.cata03_c02{background-color:#91bd8e;}/* 회계기준자문위원회 */
+.cata03_c03{background-color:#ee8880;}/* 세미나 */
+.cata03_c04{background-color:#768bc4;}/* 포럼 */
+.cata03_c05{background-color:#ffa500;}/* 교육 */
+.cata03_c06{background-color:#3f88eb;}/* 지속가능성기준위원회 */
+.cata03_c07{background-color:#131c96;}/* 지속가능성기준자문위원회 */
+.cata03_c08{background-color:#3aab87;}/* 지속가능성기준전문위원회 */
+.cata03_c09{background-color:#a5b4be;}/* 국제회의 */
+.cata03_c10{background-color:#404f68;}/* 기타 */
+
+.path{font-family: 'GongGothic';word-break: keep-all;border-top: 2px solid #3aab87;}
+.path > li{padding: 15px 10px;padding-left: 85px;box-sizing: border-box;border: 1px solid #ddd;border-top: 0;position: relative;}
+.path > li:before{position:absolute;content:'';display:block;width: 45px;height: 45px;background-color: #f1f1f1;background-position: center;background-repeat: no-repeat;left: 20px;border-radius: 25px;top: 15px;}
+.path > li:nth-of-type(1):before{background-image:url(../images/ico_car.png);}
+.path > li:nth-of-type(2):before{background-image:url(../images/ico_bus.png);}
+.path > li .path_tit{font-weight: 500;font-size: 22px;line-height: 1;margin-top: 12px;}
+.path > li .path_txt{font-weight: 300;font-size: 20px;line-height: 1.35;margin-top: 10px;}
+.path > li .path_gro{}
+.path > li .path_noti{padding: 8px;padding-left: 35px;position: relative;background-color: #f1f1f1;box-sizing: border-box;font-size: 16px;line-height: 1.35;margin-top: 5px;}
+.path > li .path_noti:before{position: absolute;content: '!';display: block;width: 16px;height: 16px;border-radius: 50px;left: 12px;background-color: #ffa500;font-size: 10px;text-align: center;line-height: 17px;top: 10px;color: #fffed0;font-weight: 500;}
+
+.noti{background-color: #fffed0;padding: 12px 15px;border-radius: 0;box-sizing: border-box;font-family: 'MYYeongnamnu';display: flex;font-size: 22px;flex-direction: column;margin-top: 10px;}
+.noti > span{color: #000;font-weight: 700;line-height: 1;display: none;}
+.noti > em{line-height: 1.35;word-break: keep-all;text-align: center;}
+
+
+.map_wrap{}
+.map_wrap .map{width: 100%;height: 300px;}
+.map_wrap .root_daum_roughmap .wrap_map{height: 100%;}
